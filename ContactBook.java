@@ -91,13 +91,13 @@ public class ContactBook {
 			
 			// print list
 				case "p":
-				if (contacts.size() > 0) {
-					for (int i = 0; i < contacts.size(); i++) {
-					contacts.get(i).printAll();
+					if (contacts.size() > 0) {
+						for (int i = 0; i < contacts.size(); i++) {
+						contacts.get(i).printAll();
+						}
+					}else {
+						System.out.println("EMPTY CONTACTS");
 					}
-				}else {
-					System.out.println("EMPTY CONTACTS");
-				}
 					break;
 			
 			// search
